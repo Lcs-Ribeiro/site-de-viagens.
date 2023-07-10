@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header-site {
+  position: relative;
+  text-align: center;
+}
+
+.header-site img {
+  width: 100%;
+  height: 600px;
+}
+
+.header-site h1 {
+  position: absolute;
+  top: -7%;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-site h2 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 1.3;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+}
+
+.melhor img {
+  position: absolute;
+  size: 10px;
+  width: 700px;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-site .sub-imagens {
+  position: relative;
+  margin-top: 20px;
+}
+
+.header-site .sub-imagens img:hover {
+  transform: scale(1);
+}
+
+.header-site .sub-imagens img {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.header-site .sub-imagens img:nth-child(1) {
+  top: -70px;
+  left: 100px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.header-site .sub-imagens img:nth-child(2) {
+  top: -70px;
+  right: 100px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.header-site .sub-imagens img:nth-child(3) {
+  top: -70px;
+  left: 43%;
+  transition: transform 0.3s ease;
+}
+
+.header-site h3 {
+  top: 795px;
+  left: 90px;
+  position: absolute;
+  font-size: 19px;
+  line-height: 1.3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-site h4 {
+  top: 795px;
+  left: 825px;
+  position: absolute;
+  font-size: 19px;
+  line-height: 1.3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-site h5 {
+  top: 785px;
+  left: 1505px;
+  position: absolute;
+  font-size: 19px;
+  line-height: 1.3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-site .botoes {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.header-site .botoes button {
+  margin-left: 70px;
+  margin-right: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: white;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-site .botoes button:hover {
+  transform: scale(1.2);
+}
+
+.sub2-imagens .main-hawaii {
+  position: relative;
+  margin-top: 50px;
+  width: 700px;
+  top: 254px;
+  left: 200px;
+}
+
+.sub2-imagens .main-japao {
+  position: relative;
+  margin-top: 80;
+  width: 700px;
+  top: 50px;
+  left: 200px;
+}
+
+.sub2-imagens .main-canais {
+  position: relative;
+  margin-top: 80px;
+  width: 420px;
+  height: 200px;
+  top: 253px;
+  left: -505px;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  color: white; /* Define a cor dos links como preto */
+  text-decoration: none; /* Remove a decoração de texto */
+}
+
+a:hover {
+  color: white; /* Define a cor dos links ao passar o mouse como preto */
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+a:visited {
+  color: white; /* Define a cor dos links visitados como preto */
+}
